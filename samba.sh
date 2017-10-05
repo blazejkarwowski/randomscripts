@@ -42,8 +42,8 @@ echo "wide links = yes" >> /etc/samba/smb.conf
 echo "unix extensions = no" >> /etc/samba/smb.conf
 
 
-echo ";server string = " $RPINAME " server" >> /etc/samba/smb.conf
-echo ";netbios name = " $RPINAME >> /etc/samba/smb.conf
+echo "server string = iotpi2 server" >> /etc/samba/smb.conf
+echo "netbios name = iotpi2" >> /etc/samba/smb.conf
 
 echo "dns proxy = no" >> /etc/samba/smb.conf
 
